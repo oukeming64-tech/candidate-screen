@@ -2,6 +2,12 @@
 
 把履历作为有说服目的的叙事审读，从整份材料中寻找岗位相关关键主张的支持、矛盾与贡献边界，给人工复核提供依据。
 
+## 语言与安装
+
+仓库根目录的 `SKILL.md` 是中文版；[英文源文件](https://github.com/oukeming64-tech/candidate-screen/tree/main/translations/en)位于 `translations/en/SKILL.en.md`，使用这一文件名避免仓库内出现第二个同名技能入口。两版技能名均为 `candidate-screen`，规则和样例逐项对应。
+
+中文、英文 ZIP 各含一个可安装的 `candidate-screen` 文件夹；英文包会把 `SKILL.en.md` 改名为 `SKILL.md`。同一技能位置只安装所选语言。若从仓库英文源文件安装，将 `translations/en/` 的内容复制到 `candidate-screen` 文件夹，再将 `SKILL.en.md` 改名为 `SKILL.md`。
+
 ## 使用
 
 将 `candidate-screen` 文件夹放入所用客户端的个人技能目录，提供岗位、级别和候选材料，并点名使用 `candidate-screen`。已有同名技能时先比较并保留自定义改动。常规使用只需读取 [SKILL.md](SKILL.md)，合成样例不是日常审读的必读材料。
@@ -21,6 +27,7 @@
 
 - [合成样例](evals/cases.md)：三组输入与复查要点。
 - [验证记录](evals/validation.md)：区分静态检查、规则审查与实际模型行为测试；有限案例不代表真实招聘效果已获验证。
+- [双语核对](evals/language-review.md)：英文版的对应关系、检查与测试边界。
 - [更新说明](CHANGELOG.md)
 
 ## 许可
