@@ -38,4 +38,7 @@ Both skills' YAML was checked with a local YAML parser. No dependencies were ins
 - Chinese SKILL.md SHA-256: `ccb90c3af76871af753e113c6db47e00dfdd170b633b734b64c50e803c076420`.
 - English SKILL.en.md SHA-256: `49fef371e6a3bec96dea3c8cb5c4a2ff838fd14d2daa2d97841c1e60466f7061`.
 
+- Model name and version for the three actual Chinese runs: Unknown (not supplied in the available execution summaries).
+- Model name and version for this English addition: Not applicable (no model behavior tests were run).
+
 No model behavior test of the English skill was run for this addition. Semantic review and static checks are not behavior tests. The English `observed.md` and `validation.md` only translate the three completed Chinese synthetic runs and their limits. They do not establish equal model performance across languages or effectiveness in real hiring.
